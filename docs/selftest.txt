@@ -1,0 +1,9 @@
+[PASS] 初始数据加载  ::  patient 表记录数 = 10
+[PASS] 重复身份证号被拒绝  ::  身份证号已存在，请勿重复建档
+[PASS] 缺失姓名被拒绝  ::  姓名不能为空
+[PASS] 查询无结果时返回空集  ::  proxy.rowCount() = 0
+[PASS] 修改后模型刷新  ::  更新为 陈志强·测试，重新查询得到 陈志强·测试
+[PASS] 新增记录写入数据库  ::  10 -> 11
+[PASS] 删除记录后行数恢复  ::  删除 id=11，当前行数 10
+[PASS] 无效数据库路径被拒绝  ::  unable to open database file Error opening database
+RESULT: PASS, FAILURES: 0
